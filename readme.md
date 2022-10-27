@@ -12,4 +12,4 @@
 
 اول افزونه **TamperMonkey** را برای Google Chrome از [اینجا](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) و برای Firefox از [اینجا](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) نصب کنید.
 
-سپس آخرین نسخه این userscript را از [اینجا](https://github.com/MeisamAmini/wikipedia-link-remover/raw/main/wikipedia-link-remover.user.js) نصب کنید.
+سپس آخرین نسخه این userscript را از [اینجا](https://github.com/MeisamAmini/Okala-Accessibility-Fixes/raw/main/okala-accessibility-fixes.user.js) نصب کنید.
