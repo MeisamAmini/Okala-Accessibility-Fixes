@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Okala Accessibility Fixes
-// @version      0.2
+// @version      0.3
 // @description  Fixes some problems in the Okala website.
 // @author       Meisam Amini
 // @match        https://okala.com/*
@@ -9,7 +9,7 @@
 
 (function() {
     'use strict';
-
+    
     // The website uses Ajax to change pages. Repeat the script every 1 second so the fixes are done for all pages.
     setInterval(function() {
         // Fix the product titles which are heading level 3 and link.
@@ -86,9 +86,16 @@
             });
         }
         
+        // Fixes the label of purchase button.
+        const purchaseButton = document.querySelector("button[aria-label='purchase']");
+        
+        if (purchaseButton) {
+            purchaseButton.setAttribute("aria-label", "شروع فرایند خرید");
+        }
+        
         // Fixes the label of user profile button.
         const userProfileButton = document.querySelector("button[aria-label='user profile dropdown']");
-        
+
         if (userProfileButton) {
             userProfileButton.setAttribute("aria-label", "حساب کاربری");
         }
